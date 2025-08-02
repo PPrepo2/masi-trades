@@ -24,7 +24,7 @@ app.use(methodOverride('_method'));
 app.set('view engine', 'ejs');
 
 //db connection
-const dbUrl = 'mongodb+srv://pius1:pius123@webdevelopment.xav1dsx.mongodb.net/masitrade';
+const dbUrl = 'mongodb+srv://marcelpolocha1:081358pius@cluster0.f9a85hv.mongodb.net/masitrade';
 mongoose.connect(dbUrl)
 .then(() =>{
     app.listen(port, () =>{
